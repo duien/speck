@@ -8,6 +8,7 @@ defmodule Speck.Mixfile do
      name: "Speck",
      source_url: "https://github.com/duien/speck",
      homepage_url: "http://duien.github.io/speck/",
+     docs: docs,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -18,6 +19,12 @@ defmodule Speck.Mixfile do
   # Type "mix help compile.app" for more information
   def application do
     [applications: [:logger]]
+  end
+
+  defp docs do
+    [
+      extras: ["README.md"]
+    ]
   end
 
   # Dependencies can be Hex packages:
