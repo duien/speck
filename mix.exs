@@ -5,6 +5,9 @@ defmodule Speck.Mixfile do
     [app: :speck,
      version: "0.0.1",
      elixir: "~> 1.2",
+     name: "Speck",
+     source_url: "https://github.com/duien/speck",
+     homepage_url: "http://duien.github.io/speck/",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
