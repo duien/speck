@@ -28,8 +28,9 @@ defmodule Speck.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:earmark, "~> 0.2.1", only: :dev},
-      {:ex_doc, "~> 0.11.5", only: :dev}
+      {:earmark, "~> 0.2.1"},
+      {:ex_doc, "~> 0.11.5", override: true},
+      {:docs_ghpages, github: "jjh42/docs_ghpages"}
     ]
   end
 end
