@@ -1,2 +1,20 @@
-# speck
-(Theoretically) A low-level Slack client for Elixir
+# Speck
+
+**TODO: Add description**
+
+## Installation
+
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+
+  1. Add speck to your list of dependencies in `mix.exs`:
+
+        def deps do
+          [{:speck, "~> 0.0.1"}]
+        end
+
+  2. Ensure speck is started before your application:
+
+        def application do
+          [applications: [:speck]]
+        end
+
