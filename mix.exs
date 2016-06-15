@@ -23,7 +23,8 @@ defmodule Speck.Mixfile do
 
   defp docs do
     [
-      extras: ["README.md"]
+      main: "readme",
+      extras: [{"README.md", title: "README"}]
     ]
   end
 
