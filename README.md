@@ -29,8 +29,25 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
     ~~~
 
 ## Message formatting
+
+Stuff
+
 ## Web API
+
+The RPC API
+
 ## Streaming API
+
+Streaming messages and responses
+
 ## Command parsing
+
+Dealing with incoming commands
+
 ### Working locally with slash commands
+
+Quickly test your commands in an interactive shell
+
 ### Testing commands
+
+Writing automated tests
