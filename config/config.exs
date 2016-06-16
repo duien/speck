@@ -8,6 +8,24 @@ use Mix.Config
 # if you want to provide default values for your application for
 # 3rd-party users, it should be done in your "mix.exs" file.
 
+config :eye_drops, 
+  tasks: [
+    %{
+      id: :unit_tests,
+      name: "Unit tests",
+      run_on_start: true,
+      cmd: "mix test --color",
+      paths: ["test/*", "lib/*"]
+    },
+    %{
+      id: :documentation,
+      name: "Generate docs",
+      run_on_start: true,
+      cmd: "mix docs",
+      paths: ["lib/*", "*.md"]
+    }
+  ]
+
 # You can configure for your application as:
 #
 #     config :speck, key: :value
