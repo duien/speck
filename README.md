@@ -1,6 +1,7 @@
 # Speck
 
 [![Build Status](https://semaphoreci.com/api/v1/duien/speck/branches/master/badge.svg)](https://semaphoreci.com/duien/speck)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/duien/speck.svg?columns=all)](https://waffle.io/duien/speck)
 
 Right now this is an empty artichoke of a repo where I'm experimenting with CI.
 
